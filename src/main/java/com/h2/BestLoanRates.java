@@ -32,7 +32,7 @@ public class BestLoanRates
         if (areEqual(bestRate, .0f))
             System.out.println(MessageFormat.format("No available rates for term: {0} years", loanTermInYears));
         else
-            System.out.println(MessageFormat.format("Best Available Rate: {0} %", bestRate));
+            System.out.println(MessageFormat.format("Best Available Rate: {0}%", bestRate));
 
         scanner.close();
     }
