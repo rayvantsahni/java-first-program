@@ -1,4 +1,4 @@
-package main.java.com.h2;
+package com.h2;
 
 import java.text.MessageFormat;
 import java.time.LocalDate;
