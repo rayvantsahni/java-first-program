@@ -6,7 +6,7 @@ import java.util.Map;
 import com.h2.BestLoanRates;
 import com.h2.SavingsCalculator;
 
-public class Finaaaaance
+public class Finance
 {
     public final static String BEST_LOAN_RATES = "bestLoanRates";
     public final static String SAVINGS_CALCULATOR = "savingsCalculator";
