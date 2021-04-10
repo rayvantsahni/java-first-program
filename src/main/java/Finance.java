@@ -3,6 +3,7 @@ package main.java;
 import java.text.MessageFormat;
 import java.util.Arrays;
 import java.util.Map;
+
 import com.h2.BestLoanRates;
 import com.h2.SavingsCalculator;
 
@@ -35,15 +36,15 @@ public class Finance
             case BEST_LOAN_RATES:
                 System.out.println("Finding best loan rates ...");
                 BestLoanRates.main(arguments);
-                break;
+                return;
             case SAVINGS_CALCULATOR:
                 System.out.println("Finding your net savings ...");
                 SavingsCalculator.main(arguments);
-                break;
-            case MORTGAGE_CALCULATOR:
-                System.out.println("Finding your monthly payment ...");
-                MortgageCalculator.main(arguments);
-                break;
+                return;
+//            case MORTGAGE_CALCULATOR:
+//                System.out.println("Finding your monthly payment ...");
+//                MortgageCalculator.main(arguments);
+//                return;
         }
     }
 
