@@ -6,7 +6,7 @@ import java.util.Map;
 import com.h2.BestLoanRates;
 import com.h2.SavingsCalculator;
 
-public class Finance
+public class Finaaaaance
 {
     public final static String BEST_LOAN_RATES = "bestLoanRates";
     public final static String SAVINGS_CALCULATOR = "savingsCalculator";
@@ -55,7 +55,7 @@ public class Finance
         }
 
         boolean isValidCommand = validateCommandArguments(args);
-        if (isValidCommand) {  // add a '!'
+        if (!isValidCommand) {
             System.out.println(commandsToUsage.get(args[0]));
             return;
         }
