@@ -7,13 +7,13 @@ public class MortgageCalculator
 {
     private long loanAmount;
     private int termInYears;
-    private float annualRates;
+    private float annualRate;
     private double monthlyPayment;
 
-    public MortgageCalculator(long loanAmount, int termInYears, float annualRates) {
+    public MortgageCalculator(long loanAmount, int termInYears, float annualRate) {
         this.loanAmount = loanAmount;
         this.termInYears = termInYears;
-        this.annualRates = annualRates;
+        this.annualRate = annualRate;
     }
 
     private int getNumberOfPayments() {
@@ -21,7 +21,7 @@ public class MortgageCalculator
     }
 
     private float getMonthlyInterestRate() {
-        float interestRate = this.annualRates / 100;
+        float interestRate = this.annualRate / 100;
         return interestRate / 12;
     }
 
