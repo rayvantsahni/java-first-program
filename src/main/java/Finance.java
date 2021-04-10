@@ -35,14 +35,15 @@ public class Finance
             case BEST_LOAN_RATES:
                 System.out.println("Finding best loan rates ...");
                 BestLoanRates.main(arguments);
-                return;
+                break;
             case SAVINGS_CALCULATOR:
                 System.out.println("Finding your net savings ...");
                 SavingsCalculator.main(arguments);
-                return;
+                break;
             case MORTGAGE_CALCULATOR:
                 System.out.println("Finding your monthly payment ...");
                 MortgageCalculator.main(arguments);
+                break;
         }
     }
 
