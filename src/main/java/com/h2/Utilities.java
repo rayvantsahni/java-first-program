@@ -9,7 +9,7 @@ public class Utilities
         try {
             out = Long.parseLong(in);
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException(MessageFormat.format("{0} cannot be converted into a 'long' value. Exiting program.", in));
+            throw new IllegalArgumentException(MessageFormat.format("{0} cannot be converted into a ''long'' value. Exiting program.", in));
         }
         return out;
     }
@@ -19,7 +19,7 @@ public class Utilities
         try {
             out = Integer.parseInt(in);
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException(MessageFormat.format("{0} cannot be converted into a 'int' value. Exiting program.", in));
+            throw new IllegalArgumentException(MessageFormat.format("{0} cannot be converted into a ''int'' value. Exiting program.", in));
         }
         return out;
     }
@@ -29,7 +29,7 @@ public class Utilities
         try {
             out = Float.parseFloat(in);
         } catch (NumberFormatException e) {
-            throw new IllegalArgumentException(MessageFormat.format("{0} cannot be converted into a 'float' value. Exiting program.", in));
+            throw new IllegalArgumentException(MessageFormat.format("{0} cannot be converted into a ''float'' value. Exiting program.", in));
         }
         return out;
     }
